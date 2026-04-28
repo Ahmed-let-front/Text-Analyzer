@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="this website for fun" />
+    <title>Text Analyzer Pro</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>Text <span class="highlight">Analyzer</span></h1>
+        <p>Precise character, word, and space tracking.</p>
+      </header>
+      <div class="editor-section">
+        <textarea
+          id="textInput"
+          placeholder="Enter your text here..."
+        ></textarea>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-label">Characters</span>
+          <span id="charCount" class="stat-value">55</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Words</span>
+          <span id="wordCount" class="stat-value">55</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-label">Spaces</span>
+          <span id="spaceCount" class="stat-value">55</span>
+        </div>
+      </div>
+      <footer class="actions">
+        <button id="clearBtn" class="btn-clear btn">Clear Content</button>
+        <button id="submitBtn" class="btn btn-submit">Send</button>
+      </footer>
+    </main>
+  </body>
+</html>
