@@ -80,6 +80,8 @@ git clone [https://github.com/Ahmed-let-front/text-analyzer.git](https://github.
 cd text-analyzer
 
 # No build steps required - Pure Vanilla Power.
+```
+---
 
 ## 👨‍💻 Author
 
